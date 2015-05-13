@@ -1578,7 +1578,7 @@
             },
 
             ballCommand: {
-                command: ['8ball', 'ask'],
+                command: ['8ballfreq', 'ask'],
                 rank: 'user',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
@@ -2788,7 +2788,7 @@
             },
 
             rouletteCommand: {
-                command: 'roulette',
+                command: 'roulettefreq',
                 rank: 'mod',
                 type: 'exact',
                 functionality: function (chat, cmd) {
